@@ -4,7 +4,8 @@ import random
 
 def getcolors(country):
     # Use a context manager to open the file
-    with open("C:\\Users\\ji160\\OneDrive\\Desktop\\flags.txt", "r") as file:
+    # Change the directory and name of the file for personalised use
+    with open("flags.txt", "r") as file:
         data = file.read()
         pattern = re.search(rf"{country}:(.*)\n", data)
         if pattern:
@@ -56,7 +57,7 @@ class CustomChat(Chat):
                     # Replace placeholders in the response
                     response = response.replace("%1", country).replace("%2", colors)
                 return response
-        return "I'm sorry, I didn't understand that."
+        return "I'm sorry, I didn't understand that. Can you Rephrase your question."
 
 # Initialize chatbot with CustomChat class
 chatbot = CustomChat(pairs, reflections)
