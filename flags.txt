@@ -1,0 +1,12 @@
+lebanon:red,green,white
+palestine:red,green,black,white
+turkey:red,white
+germany:red,yellow,black
+saudi arabia:green,white
+bahrain:red,white
+india:yellow,white,green,blue
+france:white,blue,red
+china:red,yellow
+united states:red,white,blue
+
+
