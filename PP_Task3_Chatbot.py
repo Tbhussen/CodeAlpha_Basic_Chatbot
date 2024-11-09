@@ -2,7 +2,9 @@ from nltk.chat.util import Chat, reflections
 import re
 import random
 
-def getcolors(country):
+def getcolors(countr):
+
+    country = countr.lower()
     # Use a context manager to open the file
     # Change the directory and name of the file for personalised use
     with open("flags.txt", "r") as file:
