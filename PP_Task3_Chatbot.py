@@ -2,9 +2,9 @@ from nltk.chat.util import Chat, reflections
 import re
 import random
 
-def getcolors(countr):
-
-    country = countr.lower()
+def getcolors(country):
+    
+    country = country.lower()
     # Use a context manager to open the file
     # Change the directory and name of the file for personalised use
     with open("flags.txt", "r") as file:
@@ -32,11 +32,11 @@ pairs = [
     ],
     [
         r"what is your name",
-        ["I am Nico the flagbot.", "My name is Nico."]
+        ["I am Rico the flagbot.", "My name is Rico."]
     ],
     [
-        r"how many minutes in an hour",
-        ["There are 60 minutes in an hour."]
+        r"How are you",
+        ["Thank u, I'm good. Let me know the colors of which country you want me to find for you."]
     ],
     [
         r"what are the colors of (.*) flag",
