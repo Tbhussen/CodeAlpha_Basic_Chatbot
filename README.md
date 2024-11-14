@@ -3,7 +3,7 @@ In this project a basic chatbot is created using python. While working on this p
 ## Detailed Discription
 As part of the Python Programming Internship with Code Alpha, we worked on building a chatbot that is able of doing a basic conversation with a human user. The basic operations include: `Greetings`, `Thanks`, `GoodBye`, and `Asking about the name of the chatbot`.
 
-We also managed to make this project more category based. So, we called this chatbot, flagbot. This flagbot called Nico is able to provide the user with the colors of any country he/she/they choose. During our work on this project, we created a text file containing the country with the corresponding flag color. This file could be easily searched using regex module(re) provided by python libraries. This file is the first if its kind on the Github.
+We also managed to make this project more category based. So, we called this chatbot, flagbot. This flagbot called Rico is able to provide the user with the colors of any country he/she/they choose. During our work on this project, we created a text file containing the country with the corresponding flag color. This file could be easily searched using regex module(re) provided by python libraries. This file is the first if its kind on the Github.
 
 To begin with, the libraries used in this module were: `NLTK`, `random`, and `re` libraries. 
 
